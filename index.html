@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar" id="navbar">
+
+        <div class="logo">
+            SKY Codes
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+
+    <!-- ================= HOME SECTION ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <h1>Welcome to SKY Codes</h1>
+
+            <p>
+                Learn, Build and Grow with Web Development.
+            </p>
+
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section id="about" class="section">
+
+        <div class="section-content">
+
+            <div class="text">
+                <h2>About Us</h2>
+
+                <p>
+                    SKY Codes is a web development learning and
+                    development platform where we learn and build
+                    modern websites and web applications.
+                </p>
+            </div>
+
+            <div class="image-box">
+                <p>About Image</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES SECTION ================= -->
+
+    <section id="services" class="section">
+
+        <h2 class="section-title">Our Services</h2>
+
+        <div class="card-container">
+
+            <!-- Card 1 -->
+            <div class="card">
+
+                <div class="card-image">
+                    Web
+                </div>
+
+                <div class="card-content">
+                    <h3>Web Development</h3>
+
+                    <p>
+                        We create responsive and modern websites
+                        using HTML, CSS and JavaScript.
+                    </p>
+
+                    <a href="#" class="card-btn">Read More</a>
+                </div>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="card">
+
+                <div class="card-image">
+                    UI
+                </div>
+
+                <div class="card-content">
+                    <h3>UI/UX Design</h3>
+
+                    <p>
+                        We design simple, attractive and
+                        user-friendly interfaces.
+                    </p>
+
+                    <a href="#" class="card-btn">Read More</a>
+                </div>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="card">
+
+                <div class="card-image">
+                    Code
+                </div>
+
+                <div class="card-content">
+                    <h3>Programming</h3>
+
+                    <p>
+                        We learn programming concepts and build
+                        practical projects.
+                    </p>
+
+                    <a href="#" class="card-btn">Read More</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+
+    <section id="projects" class="section">
+
+        <h2 class="section-title">Our Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project">
+                <h3>University Management System</h3>
+                <p>
+                    A web-based system for managing university
+                    academic information.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>
+                    A responsive personal portfolio website
+                    for developers.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT / FORM ================= -->
+
+    <section id="contact" class="section">
+
+        <h2 class="section-title">Contact Us</h2>
+
+        <form class="contact-form">
+
+            <!-- Name -->
+            <div class="form-group">
+                <label for="name">Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+            </div>
+
+
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+
+            <!-- Message -->
+            <div class="form-group">
+                <label for="message">Message</label>
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Enter your message"
+                    required
+                ></textarea>
+            </div>
+
+
+            <button type="submit" class="submit-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= SCROLL TO TOP BUTTON ================= -->
+
+    <button id="scrollTopBtn" class="scroll-top">
+        ↑
+    </button>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
